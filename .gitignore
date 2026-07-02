@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Raw large dataset (App only needs cleaned_data.csv and rfm_segments.csv)
+data/online_retail.csv
+
+# Word document specifications
+Project Title.docx
+shopper-spectrum-pf.docx
+
+# Local OS metadata
+.DS_Store
+Thumbs.db
